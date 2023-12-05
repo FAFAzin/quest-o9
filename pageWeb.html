@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#principal">inicio</a></li>
+          <li><a href="#sobre">História</a></li>
+          <li><a href="#temporadas">Assitir</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#assinar">Assinaturas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner -->
+      <section class="banner" id="principal">
+        <img src="./img/Banner.gif" alt="" />
+      </section>
+      <!-- Descrição -->
+      <section class="descricao" id="sobre">
+        <h1>História de Henry</h1>
+        <p>
+          Em um despertar misterioso, um jovem garoto se vê imerso em um
+          universo monocromático de pixels, onde cada contorno e sombra é
+          delineado por linhas nítidas e contrastantes. Desorientado e
+          intrigado, ele inicia uma jornada fascinante para desvendar os enigmas
+          que o levaram a este mundo singular. Ao explorar os confins desse
+          reino pixelado, o protagonista depara-se com desafios intrigantes e
+          personagens peculiares, cada um trazendo fragmentos de uma narrativa
+          intricada. Cada passo revela um novo mistério, e a ânsia do menino em
+          escapar desse cenário monótono cresce a cada descoberta. Enquanto
+          busca respostas, o jovem herói desvenda pistas que remetem ao seu
+          próprio passado e aos eventos que o levaram a esse estranho domínio. A
+          paleta de pixels, inicialmente limitada e fria, começa a ganhar vida
+          conforme ele desenterra memórias esquecidas e desvenda os laços que o
+          conectam a este mundo peculiar. Com uma narrativa cativante e
+          visualmente envolvente, a história desse menino mergulha os leitores
+          em uma jornada de autodescoberta, mistério e a beleza que surge quando
+          a verdade é revelada em cada pixel de sua existência. Uma escapada
+          encantadora entre os contrastes do preto e branco, onde a busca pela
+          cor torna-se a essência da narrativa, transformando o simples
+          despertar em uma epopeia emocionante de compreensão e liberdade.
+        </p>
+      </section>
+      <!-- Temporadas -->
+      <section class="temporadas" id="temporadas">
+        <h1>Todas as temporadas</h1>
+        <ol>
+          <li><a href="#">Temporada 1</a></li>
+          <li><a href="#">Temporada 2</a></li>
+          <li><a href="#">Temporada 3</a></li>
+        </ol>
+      </section>
+
+      <!-- Assinar -->
+      <section class="assinar" id="planos">
+        <h1>Assinaturas</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Assinatura</th>
+              <th>Valor</th>
+              <th>Telas</th>
+              <th>Qualidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mensal</td>
+              <td>29,99</td>
+              <td>1 Telas</td>
+              <td>HD</td>
+            </tr>
+            <tr>
+              <td>Semestral</td>
+              <td>149,99</td>
+              <td>3 Telas</td>
+              <td>4K</td>
+            </tr>
+            <tr>
+              <td>Anual</td>
+              <td>299,99</td>
+              <td>4 Telas</td>
+              <td>4K</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Formulário -->
+      <section class="inscricao" id="assinar">
+        <h1>Faça sua assinatura</h1>
+        <form action="#">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Seu melhor email"
+          />
+          <label for="assinatura">Assinatura</label>
+          <select name="assinatura" id="assinatura">
+            <option value="1">Mensal</option>
+            <option value="2">Semestral</option>
+            <option value="3">Anual</option>
+          </select>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 <Name> Criado por Josafá.
+      </p>
+    </footer>
+  </body>
+</html>
